@@ -1,0 +1,36 @@
+nav{
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000000;
+	color: #fff;
+
+}
+header{
+ background-image: url(images.jpg);
+ min-height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+body{
+	margin: 0px;
+	min-height: 500vh
+
+}
+a{
+	color: #fff;
+	padding:6px;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 3s ease-out
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+	color: #FF0000;
+    transition: all 3s ease-out;
+
+}
